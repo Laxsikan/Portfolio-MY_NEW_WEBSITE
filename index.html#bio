@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Laxsikan Manoranjan</title>
+
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: #e6eae6;">
+   <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/brand.png" alt="laxsikan-man" height="25px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#bio">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="experience.html">Experience</a>
+             </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+   <section class="hero">
+      <div class="about">
+         <img src="images/brand.png" alt="laxsikan-man" height="60px"/>
+         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+          </svg>
+         <h1>Laxsikan Manoranjan</h1>
+         <h3>Turning Ideas into Reality.</h3>
+         <p>Click below to learn more.</p>
+         <button class="btn-chevron"><a href="#bio"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+         </svg></a></button>
+      </div>
+   </section>
+
+   <h2>Read All About Me ☕</h2>
+   <hr>
+
+   <section class="bio" id="bio">
+    <div class="bio-card-experience">
+        <img src="images/portrait.jpg" alt="My Portrait">
+        <p>Hey there! I'm a tech enthusiast based in Union, New Jersey. I hold a strong passion for cellular network architectures, specifically 4G/5G, and network security. I am currently applying for various positions, including Programmer Analyst at Orion Innovation, System Engineer at ClassLink, Front End Web Developer at Tailored Brands, Inc., and Java Web Developer at American Systems. I am always keen to learn and explore new technologies.<br><br>In my free time, I enjoy coffee at local cafes and keeping up with sports. This site showcases a blend of my personal projects and professional experiences. Feel free to explore and reach out if you wish to collaborate or learn more about my work. Welcome!</p>
+        <div class="social-media-icons">
+            <a href="https://github.com/Laxsikan" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/laxsikan-manoranjan-08bb3b240/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/luxsimanoranjan" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+   <div id="contact-container">
+<div class="credentials">
+    <a href="images/res-file.pdf" download="Laxsikan Manoranjan Resume.pdf" class="button-link">
+        <button id="downloadBtn">Resume</button>
+    </a>
+ 
+    <button id="contact" class="contact">Contact</button>
+</div>
+
+    
+    <p id='linkToPages'>Also check out my Professional Experience: <a href="experience">Professional Experience</a></p>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeK1Iykm48FtmYF9D5-dnDRn3nSuXEx-6fCQSTqO1yGBbhSw/viewform?embedded=true" width="640" height="775" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+</div>
+<footer>
+      <p>Author: Laxsikan Manoranjan</p>
+      <p>For accessibility issues with the site please email: manoluxsikan@gmail.com</p>
+      <p id="clock">Current Date: <span id="time"></span></p>
+  </footer>
+  
+   <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
